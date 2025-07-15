@@ -1,2 +1,3 @@
 # python-basics
-Some beginner stuff for python
+Some beginner stuff for python. 
+Just the basics
