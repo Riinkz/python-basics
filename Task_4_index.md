@@ -1,4 +1,4 @@
-### Task 4 – Indexing characters in a string
+### Task 4 - Indexing characters in a string
 
 In Python you can grab a single character from a string with square-bracket notation `[]`.
 Counting starts at 0, so the first character is index `0`, the second is `1`, and so on.
