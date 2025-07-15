@@ -16,7 +16,7 @@ cable_count = cable_count + 3   # bought three more cables
 tutorial_rating = 4.50          # updated the rating
 
 # 4. Show the new values
-print("\nAfter update:")        # '\n' is used as a line-break before the string.
+print("\nAfter update:")        # '\n' is a line break
 print("Cables:", cable_count)
 print("Rating:", tutorial_rating)
 

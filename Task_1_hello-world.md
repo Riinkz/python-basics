@@ -1,18 +1,40 @@
-The first thing to do, when learning any programming language, is to print the text "Hello world".
-In python, a print function call is as basic, as it gets:
+### **Task 1 - Hello World**
+
+Before doing anything else in a new programming language, you traditionally
+make it say **“Hello world”**.
+In Python that’s a one-liner:
 
 ```python
-print("example")
+print("Hello world")
 ```
 
-This will output the text "example" to the console.
+The `print()` function sends whatever you give it straight to the console.
 
-You can also repeat function calls like this:
+---
+
+#### **Repeating output**
+
+You can ask Python to repeat a string by multiplying it:
 
 ```python
 print("example " * 5)
 ```
 
-Now try writing a "Hello World" python script and executing the file.
+That prints one line containing the word example five times.
 
-Hint: Always put strings (text) in quotes.
+---
+
+#### **Your exercise**
+
+1. Create a new file called `Task_1.py` in your editor.
+2. Write the lines shown below.
+3. Run the file from your terminal or IDE and watch the output.
+
+```python
+print("Hello world")
+print("example " * 5)
+```
+
+> **Hint:** Text must always be wrapped in quotes (`' '` or `" "`).
+> Forgetting them makes Python think it’s a variable name and you’ll get an
+> error.

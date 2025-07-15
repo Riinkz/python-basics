@@ -1,26 +1,45 @@
-Variables in python can simply be declared like this:
+### **Task 2 - Variables**
+
+Variables are “named boxes” that hold data.
+In Python you create one with a simple assignment:
 
 ```python
 cable_count = 5
 ```
 
-Now x has the value 5.
-Variables by default can store primitive values. Meaning and integer, float(decimal), string, boolean.
+Now `cable_count` stores the integer `5`.
+
+---
+
+#### **Primitive value types**
+
+Python variables can contain any of the basic (primitive) data types:
 
 ```python
-rating = 4.20
-name = "John"
-is_admin = True
+rating     = 4.20      # float (decimal number)
+name       = "John"    # string (text)
+is_admin   = True      # boolean (True/False)
 ```
 
-Strings can also span multiple lines, when using tripple quotes:
+You can even write multi-line strings by using triple quotes:
 
 ```python
-Review = """
-Python basics are so easy! 
+review = """
+Python basics are so easy!
 """
 ```
 
-Hint: ==Make sure to always use descriptive variable names. That's just basic code of conduct for coding/scripting.==
+> **Hint:** Choose clear, descriptive variable names,
+> they make code easier for everyone (including *future you*) to read.
 
-You can then use these variables in functions or modify them. Give it a try!
+---
+
+#### **Your exercise**
+
+1. Create a new file called `Task_2.py`.
+2. Inside it, declare four variables—an integer, a float, a string, and a boolean.
+3. Print each variable on its own line.
+4. Change at least two variables (e.g., add 3 to the integer, adjust the float), then print them again.
+5. Add a triple-quoted string to describe what you learned and print it.
+
+When you run the file you should see the original values, the updated values, and your multi-line note.
