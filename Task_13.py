@@ -32,8 +32,6 @@ for i in range(3):
 else: 
     print("Access denied")
     
-hobbies = ["Eating cables", "Munching electronics", "Tasting hardware"]
-
 # 3. Hobbies
 for hobbies in ["eating cables", "munching electronics", "tasting hardware"]:
     print(f"I like {hobbies}!")
