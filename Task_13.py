@@ -1,37 +1,39 @@
-print("message")
+"""
+2. Write a loop that prints the numbers 1 through 5, each followed by that many asterisks, like
+   `3 ***`.
+3. Use a second loop with `range(10, 0, -2)` to print even numbers downward: `10  8  6  4  2`.
+4. Prompt the user to enter a secret word. Give them up to **3 tries**.
 
-for number in range(3):             # 0 - 2
-    print(number + 1, (number + 1) * ".")
+   - If they guess correctly, print `"Access granted"` and end the loop with `break`.
+   - If they fail all three attempts, print `"Access denied"` after the loop using the `else` clause.
 
- 
-for number in range(1, 4):          # 1 - 3 
-    print(number, number * ".")
+5. Make a list named `hobbies` with at least three items. Loop through it and print
+   `"I enjoy <hobby>"` for each one.
+"""
+
+# 1. Simple loops
+for i in range(1, 5):
+    print(f"{i} {i * "*"}")
     
-for number in range(1, 10, 2):      # 1 - 10 in steps of 2
-    print(number, number * ".")
+for n in range(10, 0, -2):
+    print(n)  
+   
+# 2. Secret
+secret = "cat"
+print("I am both Schrödinger's uncertain prisoner and the cherished companion of Bastet, reigning over memes and mice alike - what am I?")
 
-# Breaking loops
-successful = True                  # True = One attempt | False = 3 attempts
-for number in range(3):
-    print("Attempt")
-    if successful:
-        print("Successful")
+for i in range(3):
+    guess = input("Answer: ")
+    if guess.lower() == secret:
+        print("Access granted")
         break
-else:
-    print("Not successful after 3 attempts")         # Else is only executed if the loop is not broken
-
-
-# Nested loops
-for x in range(5):              # Outer loop | For a range of 5
-    for y in range(3):          # Inner loop (child) | Do 3 times
-        print(f"({x}, {y})")
-        
-# Iterables
-print(type(5))
-print(type(range(5)))           # Complex type
-
-for x in "Python":
-    print(x)
+    else:
+        print("Try again!")
+else: 
+    print("Access denied")
     
-for x in ["apple", "banana", "pear"]:
-    print(x)
+hobbies = ["Eating cables", "Munching electronics", "Tasting hardware"]
+
+# 3. Hobbies
+for hobbies in ["eating cables", "munching electronics", "tasting hardware"]:
+    print(f"I like {hobbies}!")

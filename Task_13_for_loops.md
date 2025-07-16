@@ -65,7 +65,7 @@ for fruit in ["apple", "banana", "pear"]:
 1. Create a file called `Task_13.py`.
 2. Write a loop that prints the numbers 1 through 5, each followed by that many asterisks, like
    `3 ***`.
-3. Use a second loop with `range(10, 0, -2)` to print even numbers downward: `10  8  6  4  2`.
+3. Use a second loop with the range 10 - 0 to print even numbers downward in steps of two: `10  8  6  4  2`.
 4. Prompt the user to enter a secret word. Give them up to **3 tries**.
 
    - If they guess correctly, print `"Access granted"` and end the loop with `break`.
