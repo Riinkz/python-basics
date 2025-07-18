@@ -4,7 +4,7 @@ _A playground for absolute beginners_
 
 ---
 
-### What’s inside?
+### What's inside?
 
 Each numbered task introduces one fundamental concept. The tasks are in the markdown (`.md`) files. My solutions are inside the python (`.py`) files - but there's countless ways achieve the same goal!
 
@@ -18,7 +18,7 @@ Each numbered task introduces one fundamental concept. The tasks are in the mark
 8.  Built-in number functions
 9.  User input & type conversion
 10. Comparison operators (`<`, `==`, …)
-11. Conditional statements (`if / elif / else`)
+11. Conditional statements (`if / elif / else`)
 12. Logical operators (`and`, `or`, `not`)
 13. `for` loops & iteration patterns
 14. `while` loops & break/continue
@@ -31,7 +31,8 @@ Additionally, there are multiple exercises, which might teach you a little trick
 ### Quick start
 
 > **Prerequisites:** Python 3.10 + (anything later works too)
-> **Tip:** Work through the tasks in order—each builds gently on the last.
+
+> **Tip:** Work through the tasks in order - each builds gently on the last.
 
 ---
 
